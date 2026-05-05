@@ -1,0 +1,107 @@
+{
+  "rank": 6,
+  "niche": "Pool leak detection",
+  "market": "Orlando / Winter Park / Lake Nona, FL",
+  "brand": "Orlando Pool Leak Detection",
+  "slug": "orlando-pool-leak-detection",
+  "primary_keyword": "pool leak detection Orlando",
+  "pages": [
+    "Home",
+    "Pool Leak Detection Orlando",
+    "Pool Leak Repair",
+    "Pool Losing Water",
+    "Pool Skimmer Leak",
+    "Pool Plumbing Leak Detection",
+    "Pool Light Leak",
+    "Winter Park",
+    "Lake Nona",
+    "Windermere",
+    "Oviedo",
+    "Kissimmee",
+    "Leak Test FAQ"
+  ],
+  "confidence": "High",
+  "page_records": [
+    {
+      "page": "Home",
+      "file": "index.html",
+      "type": "home"
+    },
+    {
+      "page": "Pool Leak Detection Orlando",
+      "file": "pool-leak-detection-orlando.html",
+      "type": "content"
+    },
+    {
+      "page": "Pool Leak Repair",
+      "file": "pool-leak-repair.html",
+      "type": "content"
+    },
+    {
+      "page": "Pool Losing Water",
+      "file": "pool-losing-water.html",
+      "type": "content"
+    },
+    {
+      "page": "Pool Skimmer Leak",
+      "file": "pool-skimmer-leak.html",
+      "type": "content"
+    },
+    {
+      "page": "Pool Plumbing Leak Detection",
+      "file": "pool-plumbing-leak-detection.html",
+      "type": "content"
+    },
+    {
+      "page": "Pool Light Leak",
+      "file": "pool-light-leak.html",
+      "type": "content"
+    },
+    {
+      "page": "Winter Park",
+      "file": "winter-park.html",
+      "type": "content"
+    },
+    {
+      "page": "Lake Nona",
+      "file": "lake-nona.html",
+      "type": "content"
+    },
+    {
+      "page": "Windermere",
+      "file": "windermere.html",
+      "type": "content"
+    },
+    {
+      "page": "Oviedo",
+      "file": "oviedo.html",
+      "type": "content"
+    },
+    {
+      "page": "Kissimmee",
+      "file": "kissimmee.html",
+      "type": "content"
+    },
+    {
+      "page": "Leak Test FAQ",
+      "file": "leak-test-faq.html",
+      "type": "content"
+    },
+    {
+      "page": "Contact",
+      "file": "contact.html",
+      "type": "utility"
+    },
+    {
+      "page": "Thank You",
+      "file": "thank-you.html",
+      "type": "utility"
+    }
+  ],
+  "safeguards": [
+    "noindex,nofollow",
+    "robots Disallow /",
+    "no fake claims",
+    "placeholder form requires activation"
+  ]
+}
