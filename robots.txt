@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: /
-Sitemap: https://example.invalid/orlando-pool-leak-detection/sitemap.xml
+Allow: /
+
+Sitemap: https://poolleakdetectionorlando.com/sitemap.xml
