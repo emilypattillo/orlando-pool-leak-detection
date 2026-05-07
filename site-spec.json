@@ -105,5 +105,16 @@
   ],
   "domain": "poolleakdetectionorlando.com",
   "canonical_base_url": "https://poolleakdetectionorlando.com/",
-  "launch_status": "domain purchased and launch SEO crawl enabled"
+  "launch_status": "Cloudflare root and www active; launch SEO crawl enabled; FormSubmit activation and lead-routing verification still required before relying on form leads",
+  "phone_display": "(321) 430-2495",
+  "phone_e164": "+13214302495",
+  "phone_tel": "3214302495",
+  "approval_flags": {
+    "domain_active": true,
+    "phone_assigned": true,
+    "indexing_enabled": true,
+    "form_activation_required": true,
+    "fake_address_allowed": false,
+    "fake_reviews_allowed": false
+  }
 }

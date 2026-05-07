@@ -1,15 +1,15 @@
 # Orlando Pool Leak Detection
 
-Non-public local SEO static build for **pool leak detection Orlando** in **Orlando / Winter Park / Lake Nona, FL**.
+Launch-prep local SEO static build for **pool leak detection Orlando** in **Orlando / Winter Park / Lake Nona, FL**.
 
 ## Safeguards
-- All HTML pages include `<meta name="robots" content="noindex,nofollow">`.
-- `robots.txt` uses `Disallow: /`.
-- This folder is not a public business, contractor, or verified provider.
+- Public HTML pages are crawlable; `thank-you.html` remains `noindex,follow`.
+- `robots.txt` allows crawling and points to the canonical sitemap.
+- Site is positioned as a service-area quote-request asset; no fake address or unsupported provider identity is used.
 - No fake address, Google Business Profile, reviews, owner identity, verified tenure, license, insurance, guaranteed outcomes, or customer proof is claimed.
-- Placeholder phone for validation routing only: `(321) 294-3433`. Public pages do not present this as a verified provider line.
+- Final tracking phone assigned: `(321) 430-2495` / `+13214302495`. Visible phone text and `tel:` links are synced.
 - FormSubmit placeholder routes to `thursday@emilypattillo.com` and requires activation plus consent/privacy approval before public use.
-- Public launch requires domain/legal/tracking/buyer-routing approval.
+- Cloudflare root and `www` domains are active for `poolleakdetectionorlando.com`. Remaining launch operations: FormSubmit activation/test lead, Search Console/indexing, and backlink/citation execution approval.
 
 ## Pages
 - [Home](index.html)
@@ -42,3 +42,11 @@ Added deeper homepage sections for rental-ready page cluster strategy, post-laun
 
 ## 2026-05-05 CMO/CTO preview cleanup
 Cleaned homepage from strategy/directive copy into customer-facing operator-style content, reduced page length/boxiness, fixed form textarea placeholder, required key fields, added honeypot/privacy note, removed thank-you from sitemap, and preserved noindex/robots safeguards.
+
+
+## 2026-05-07 Cloudflare/NAP launch prep
+- Canonical domain: `https://poolleakdetectionorlando.com`
+- `www` custom domain active in Cloudflare.
+- Phone synced: `(321) 430-2495` / `+13214302495`.
+- Root and `www` HTTPS checks returned `200` from Wednesday's verification.
+- Keep no fake address, fake reviews, license/insurance, top-rated, best, years-in-business, or guaranteed emergency claims unless verified by a fulfillment partner.
