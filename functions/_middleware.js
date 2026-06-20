@@ -1,11 +1,8 @@
 export async function onRequest(context) {
   const pathname = new URL(context.request.url).pathname;
-  if (
-    pathname === '/README.md' ||
-    pathname === '/site-spec.json' ||
-    pathname === '/.git' ||
-    pathname.startsWith('/.git/')
-  ) {
+  const forbiddenExact = ['/README.md', '/LAUNCH-NOTES.md', '/site-spec.json', '/.git', '/.gitignore', '/.env', '/build.py'];
+  const forbiddenPrefixes = ['/.git/', '/.wrangler/', '/artifacts/', '/node_modules/'];
+  if (forbiddenExact.includes(pathname) || forbiddenPrefixes.some((p) => pathname.startsWith(p))) {
     return new Response('Not found', {
       status: 404,
       headers: {

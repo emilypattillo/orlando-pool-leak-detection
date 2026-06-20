@@ -7,7 +7,7 @@ Launch-prep local SEO static build for **pool leak detection Orlando** in **Orla
 - `robots.txt` allows crawling and points to the canonical sitemap.
 - Site is positioned as a service-area quote-request asset; no fake address or unsupported provider identity is used.
 - No fake address, Google Business Profile, reviews, owner identity, verified tenure, license, insurance, guaranteed outcomes, or customer proof is claimed.
-- Final tracking phone assigned: `(321) 430-2495` / `+13214302495`. Visible phone text and `tel:` links are synced.
+- Final tracking phone assigned: `(321) 972-8852` / `+13219728852`. Visible phone text and `tel:` links are synced.
 - FormSubmit placeholder routes to `thursday@emilypattillo.com` and requires activation plus consent/privacy approval before public use.
 - Cloudflare root and `www` domains are active for `poolleakdetectionorlando.com`. Remaining launch operations: FormSubmit activation/test lead, Search Console/indexing, and backlink/citation execution approval.
 
@@ -47,6 +47,6 @@ Cleaned homepage from strategy/directive copy into customer-facing operator-styl
 ## 2026-05-07 Cloudflare/NAP launch prep
 - Canonical domain: `https://poolleakdetectionorlando.com`
 - `www` custom domain active in Cloudflare.
-- Phone synced: `(321) 430-2495` / `+13214302495`.
+- Phone synced: `(321) 972-8852` / `+13219728852`.
 - Root and `www` HTTPS checks returned `200` from Wednesday's verification.
 - Keep no fake address, fake reviews, license/insurance, top-rated, best, years-in-business, or guaranteed emergency claims unless verified by a fulfillment partner.

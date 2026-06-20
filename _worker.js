@@ -1,5 +1,5 @@
-const FORBIDDEN_PREFIXES = ['/.git/', '/.wrangler/', '/artifacts/'];
-const FORBIDDEN_EXACT = new Set(['/README.md', '/site-spec.json', '/.git', '/.git/config', '/.git/HEAD', '/.git/index', '/artifacts/internal/site-spec.json']);
+const FORBIDDEN_PREFIXES = ['/.git/', '/.wrangler/', '/artifacts/', '/node_modules/'];
+const FORBIDDEN_EXACT = new Set(['/README.md', '/LAUNCH-NOTES.md', '/site-spec.json', '/.git', '/.gitignore', '/.env', '/.git/config', '/.git/HEAD', '/.git/index', '/artifacts/internal/site-spec.json', '/build.py']);
 
 export default {
   async fetch(request, env, ctx) {
@@ -9,7 +9,8 @@ export default {
         status: 404,
         headers: {
           'content-type': 'text/plain; charset=utf-8',
-          'x-robots-tag': 'noindex, nofollow',
+          'cache-control': 'no-store',
+          'x-robots-tag': 'noindex, nofollow, noarchive',
         },
       });
     }

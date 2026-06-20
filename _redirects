@@ -1,10 +1,2 @@
-# Hide repository/build artifacts from public static hosting
-
-# WL source artifact guard: force-hide files that must never be public
-/.git/* /404.html 404
-/README.md /404.html 404
-/site-spec.json /404.html 404
-/command/* /404.html 404
-/command /404.html 404
-/artifacts/* /404.html 404
-/.wrangler/* /404.html 404
+/homeowner-checklist /quote-request 301
+/homeowner-checklist.html /quote-request 301
