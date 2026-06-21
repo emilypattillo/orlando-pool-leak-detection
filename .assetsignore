@@ -1,0 +1,6 @@
+_worker.js
+.git/
+.wrangler/
+artifacts/
+0a9cc22d79ef4b0a9d6ce03b4157065b.txt
+*.log
