@@ -1,8 +1,20 @@
 const FORBIDDEN_PREFIXES = ['/.git/', '/.wrangler/', '/artifacts/', '/node_modules/'];
-const FORBIDDEN_EXACT = new Set(['/README.md', '/LAUNCH-NOTES.md', '/site-spec.json', '/.git', '/.gitignore', '/.env', '/.git/config', '/.git/HEAD', '/.git/index', '/artifacts/internal/site-spec.json', '/build.py']);
+const FORBIDDEN_EXACT = new Set([
+  '/README.md',
+  '/LAUNCH-NOTES.md',
+  '/site-spec.json',
+  '/.git',
+  '/.gitignore',
+  '/.env',
+  '/.git/config',
+  '/.git/HEAD',
+  '/.git/index',
+  '/artifacts/internal/site-spec.json',
+  '/build.py',
+]);
 
 export default {
-  async fetch(request, env, ctx) {
+  async fetch(request, env) {
     const url = new URL(request.url);
     if (FORBIDDEN_EXACT.has(url.pathname) || FORBIDDEN_PREFIXES.some((prefix) => url.pathname.startsWith(prefix))) {
       return new Response('Not found', {
