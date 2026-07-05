@@ -6,6 +6,7 @@ const FORBIDDEN_EXACT = new Set([
   '/.git',
   '/.gitignore',
   '/.env',
+  '/auth.json',
   '/.git/config',
   '/.git/HEAD',
   '/.git/index',
@@ -26,6 +27,17 @@ export default {
         },
       });
     }
-    return env.ASSETS.fetch(request);
+    try {
+      return await env.ASSETS.fetch(request);
+    } catch (error) {
+      return new Response('Not found', {
+        status: 404,
+        headers: {
+          'content-type': 'text/plain; charset=utf-8',
+          'cache-control': 'no-store',
+          'x-robots-tag': 'noindex, nofollow, noarchive',
+        },
+      });
+    }
   },
 };
